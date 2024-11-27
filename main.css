@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: white;
+}
+main {
+  background-color: black;
+  width: 1070px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section {
+  display: grid;
+  grid-template-columns: 800px 250px;
+  gap: 20px;
+}
+section ol {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 120px 120px;
+  grid-template-rows: 120px;
+  gap: 10px;
+}
+section ol li img {
+  display: block;
+  opacity: 0.5;
+  transition: all 1;
+}
+section ol li a:hover img {
+  opacity: 1;
+  outline: 5px solid cyan;
+}
+section ol li .selected a img {
+  opacity: 1;
+  outline: 5px solid #ffff;
+}
